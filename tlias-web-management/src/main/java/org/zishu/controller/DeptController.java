@@ -12,6 +12,9 @@ import org.zishu.service.DeptService;
 
 import java.util.List;
 
+/**
+ * 部门管理
+ */
 @Slf4j
 @RequestMapping("/depts")
 @RestController
