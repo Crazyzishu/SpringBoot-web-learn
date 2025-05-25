@@ -1291,3 +1291,21 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 2025-05-25 17:03:02.754 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
 2025-05-25 17:03:02.756 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
 2025-05-25 17:03:02.760 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-05-25 17:14:25.769 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 27904 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-05-25 17:14:25.772 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-05-25 17:14:26.493 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-05-25 17:14:26.495 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-05-25 17:14:26.498 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-05-25 17:14:26.505 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-25 17:14:26.506 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-05-25 17:14:26.506 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-25 17:14:26.546 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-05-25 17:14:26.546 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 745 ms
+2025-05-25 17:14:26.996 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-05-25 17:14:27.013 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-05-25 17:14:27.019 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.55 seconds (process running for 2.241)
+2025-05-25 17:14:33.386 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-25 17:14:33.386 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-05-25 17:14:33.387 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-05-25 17:14:33.421 [http-nio-8080-exec-1] INFO  org.zishu.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=阮, gender=1, begin=2010-01-01, end=2020-01-01)
+2025-05-25 17:14:33.508 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
