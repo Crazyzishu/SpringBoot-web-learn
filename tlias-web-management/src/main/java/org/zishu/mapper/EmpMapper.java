@@ -1,6 +1,8 @@
 package org.zishu.mapper;
 
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Select;
 import org.zishu.pojo.Emp;
 import org.zishu.pojo.EmpQueryParam;
@@ -32,9 +34,14 @@ public interface EmpMapper {
 
     /**
      * 条件查询员工信息的方法
-     * @param empQueryParam
-     * @return
      */
     public List<Emp> list(EmpQueryParam empQueryParam);
 
+    /**
+     * 添加员工信息
+     */
+    @Options(useGeneratedKeys = true,  keyProperty = "id")//获取到生成的主键 -- 主键返回
+    @Insert("insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time)" +
+            "VALUES (#{username},#{name},#{gender},#{phone},#{job},#{salary},#{image},#{entryDate},#{deptId},#{createTime},#{updateTime})")
+    void insert(Emp emp);
 }

@@ -4,13 +4,17 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
+import org.zishu.mapper.EmpExprMapper;
 import org.zishu.mapper.EmpMapper;
 import org.zishu.pojo.Emp;
+import org.zishu.pojo.EmpExpr;
 import org.zishu.pojo.EmpQueryParam;
 import org.zishu.pojo.PageResult;
 import org.zishu.service.EmpService;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service//将该类注册为Bean
@@ -18,6 +22,9 @@ public class EmpServiceImpl implements EmpService {
 
     @Autowired
     private EmpMapper empMapper;
+
+    @Autowired
+    private EmpExprMapper empExprMapper;
 
     /**
      * 原始分页查询操作
@@ -57,5 +64,26 @@ public class EmpServiceImpl implements EmpService {
 
         return new PageResult<Emp>(p.getTotal(),p.getResult());
 
+    }
+
+    /**
+     * 新增员工
+     */
+    @Override
+    public void save(Emp emp) {
+        //1.保存员工基本信息
+        emp.setCreateTime(LocalDateTime.now());
+        emp.setUpdateTime(LocalDateTime.now());
+        empMapper.insert(emp);
+
+        //2.保存员工工作经历
+        List<EmpExpr> exprList = emp.getExprList();
+        if(!CollectionUtils.isEmpty(exprList)){
+            //遍历集合：为empId赋值
+            exprList.forEach(empExpr -> {
+                empExpr.setEmpId(emp.getId());
+            });
+            empExprMapper.insertBatch(exprList);
+        }
     }
 }
