@@ -9,6 +9,8 @@
         collection：指定集合类型
         item：指定集合中的元素
         separator：指定分隔符
+        open：循环结束后指定开头
+        close：循环结束后指定结尾
 -->
     <insert id="insertBatch">
         insert into emp_expr(emp_id,begin,end,company,job) values
