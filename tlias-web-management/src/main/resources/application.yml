@@ -9,6 +9,12 @@ spring:
     url: jdbc:mysql://localhost:3306/tlias?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
     username: root
     password: 111111
+  servlet:
+    multipart:
+      #最大单个文件大小
+      max-file-size: 10MB
+      #最大请求大小
+      max-request-size: 100MB
 #Mybatis的相关配置 -- 将Mybatis的日志输出到控制台,开启驼峰命名规则映射
 mybatis:
   configuration:
@@ -19,3 +25,9 @@ mybatis:
 logging:
   level:
     org.springframework.jdbc.support.JdbcTransactionManager: debug
+#阿里云OSS
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    bucketName: java-spring-web-learn
+    region: cn-beijing

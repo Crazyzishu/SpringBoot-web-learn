@@ -1,0 +1,80 @@
+填空题：
+1.	StringBuilder 是 Java 中用于处理字符串的类之一，它属于__ java.lang__包。与 String 类不同，StringBuilder 允许对字符串进行可变操作，而不会创建新的字符串对象。
+2.	在Java中，有两种主要的方式来实现多线程：继承 Thread 类和实现 ___Runnable__ 接口。
+3.	___HashMap___是Java中常用的Map实现类之一，它通过哈希表存储键值对，具有快速的查找性能。
+4.	I/O（Input/Output）流是一种用于处理输入和输出数据的机制，FileReader 用于从文件中读取字符流，___FileWriter___用于向文件写入字符流。
+5.	在Swing中，通过添加 __监听器__ 来处理按钮点击等用户操作。
+6.	判断一个文件对象是不是目录文件可以调用____isDirectory( )____方法。
+7.	Java提供了几个内置注解，其中__@Override____注解用来告诉别人这个方法是重写父类的方法。
+8.	获取Class对象的三种方式是, 1通过对象调用getClass()方法,  2 通过类直接使用 ___.class__ 获取, 3通过 Class.forName("完整类名") 方法。
+9.	TCP/IP套接字是最可靠的双向流协议。等待客户端的服务器使用ServerSocket类，而要连接到服务器的客户端则使用___Socket___类。
+10.	用于执行 SQL 查询的 Java 接口Statement 或 __PreparedStatement___。
+
+
+单选择题：
+
+1.如何按照元素的自然顺序对集合进行排序？（A）
+A. 使用 Collections.sort(List<T> list) 方法
+
+2.下列对于equals()方法的描述，正确的是（C）
+C.String类重写了Object类的equals()方法，判断String对象的字符串值是否相等
+
+3.下列代码片段的输出结果是（B）
+String s = "hello,java"; 
+System.out.println(s.charAt(0)); 
+B.h
+
+4. 以下哪个是Java的基本数据类型？（B）
+B. int
+
+5.关于Java中的TreeSet，请选择正确的描述（C）
+C. TreeSet使用红黑树（Red-Black Tree）实现，元素按照自然顺序或者指定的比较器进行排序
+
+6.SimpleDateFormat类，请选择正确的描述（C）
+C. SimpleDateFormat类允许指定日期格式模式，用于格式化和解析日期对象                   
+
+7.正确使用泛型能够让我们的代码更加简洁、安全，下列哪一条描述不是泛型带来的好处（D）
+D.强化了面向对象的封装性，使代码更安全
+
+8.	定义泛型类的语句，请选择正确的描述（A）
+A. class MyGenericClass<T>{} 是一个正确的泛型类定义语句。
+
+9.	Swing编程中，哪个布局管理器会按照添加顺序从左向右布局组件，当到达容器的边界时，会自动将组件放到下一行的开始位置（B）
+B.FlowLayout
+				
+10.	Swing事件处理机制中，addActionListener方法可以添加下列哪个接口或抽象类的实现类对象作为事件监听器（D）
+D.ActionListener
+
+
+11.	以下哪个方法用于获取类的全部构造方法？（C）
+C. getConstructors()
+
+12.	在Java JDBC（Java Database Connectivity）中，以下哪个对象负责与数据库建立连接？（B）
+B. Connection
+
+13.	ResultSet接口用于保存JDBC执行查询时返回的结果集，下列关于ResultSet的描述错误的是（B）
+B.ResultSet对象初始化时，游标指向查询到的数据集的第一行数据
+
+14.	线程是Java的（ D ）机制
+D. 并发
+
+15.	下面哪些选项（C）不属于线程生命周期中的状态
+C. 冰冻
+
+16.	TCP编程中，服务端通过ServerSocket对象的accept方法监听客户端的请求，监听到客户端连接后，通过下列哪个方法获取向客户端发送数据的流对象（A）
+A.getOutputStream()
+
+17.	URL（Uniform Resource Locator）是统一资源定位器，它表示互联网上某一资源的地址,其构成元素不包括下列哪个选项（D）
+D.文件编码格式
+
+18.	在程序读入字符文字时，推荐使用以下哪个流（A）
+A. FileReader
+19.	关于Java中的注解，请选择正确的描述（ D ） 
+D. 注解可以在代码中添加元数据，但对程序运行没有影响
+
+20.	Java中提供了用于将字节流转换成字符流的转换流，下列哪个语句可将字节流转换成字符流（B）				
+B.FileInputStream in = new FileInputStream("reader.txt");
+  InputStreamReader isr = new InputStreamReader(in);
+
+
+
