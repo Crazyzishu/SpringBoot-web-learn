@@ -5,7 +5,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 /**
- * 工作经历
+ * 员工工作经历
  */
 @Data
 public class EmpExpr {

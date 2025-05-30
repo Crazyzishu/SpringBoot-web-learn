@@ -32,7 +32,14 @@
             </if>
         </where>order by e.update_time desc
     </select>
+
+<!--    定义ResultMap-->
+    <resultMap id="empResultMap" type="org.zishu.pojo.Emp">
+        
+    </resultMap>
+
 <!--    根据id查询员工的基本信息以及员工的工作经历信息-->
+<!--    ResultType是自动结果封装，返回值类型为Emp-->
     <select id="getById" resultType="org.zishu.pojo.Emp">
         select
             e.*,
