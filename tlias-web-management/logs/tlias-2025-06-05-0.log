@@ -730,3 +730,16 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '13532325656'
 2025-06-05 15:52:33.761 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
 2025-06-05 15:52:33.764 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
 2025-06-05 15:52:33.768 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-06-05 15:52:36.189 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 22284 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-06-05 15:52:36.190 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-05 15:52:36.996 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-05 15:52:36.998 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-06-05 15:52:37.001 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-06-05 15:52:37.009 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-05 15:52:37.011 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-05 15:52:37.011 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-05 15:52:37.052 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-05 15:52:37.058 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 839 ms
+2025-06-05 15:52:37.575 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-05 15:52:37.591 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-05 15:52:37.598 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.682 seconds (process running for 2.462)
