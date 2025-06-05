@@ -12,9 +12,11 @@ import org.zishu.pojo.*;
 import org.zishu.pojo.EmpLog;
 import org.zishu.service.EmpLogService;
 import org.zishu.service.EmpService;
+import org.zishu.mapper.EmpMapper;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
+
+import java.util.Arrays;
 import java.util.List;
 
 @Service//将该类注册为Bean
@@ -112,5 +114,24 @@ public class EmpServiceImpl implements EmpService {
     @Override
     public Emp getInfo(Integer id) {
         return empMapper.getById(id);
+    }
+
+    @Transactional(rollbackFor = {Exception.class})//出现任何异常进行事务的回回滚
+    @Override
+    public void update(Emp emp) {
+        //1.根据id修改员工的基本信息
+        emp.setUpdateTime(LocalDateTime.now());
+        empMapper.updateById(emp);
+
+        //2.根据id修改员工的经历信息
+        //2.1先根据员工ID删除原有的工作经历
+        empExprMapper.deleteByEmpIds(Arrays.asList(emp.getId()));
+
+        //2.2后添加这个员工新的工作经历
+        List<EmpExpr> exprList = emp.getExprList();
+        if(!CollectionUtils.isEmpty(exprList)){//获取员工的id
+            exprList.forEach(empExpr -> empExpr.setEmpId(emp.getId()));
+            empExprMapper.insertBatch(exprList);
+        }
     }
 }

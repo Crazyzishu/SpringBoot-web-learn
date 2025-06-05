@@ -51,7 +51,12 @@ public interface EmpMapper {
     void deleteByIds(List<Integer> ids);
 
     /**
-     * 根据ID查询员工信息以及员工的工作经历信息
+     * 根据ID查询员工信息 以及 员工的工作经历信息
      */
     Emp getById(Integer id);
+
+    /**
+     * 根据ID更新员工的基本信息
+     */
+    void updateById(Emp emp);
 }
