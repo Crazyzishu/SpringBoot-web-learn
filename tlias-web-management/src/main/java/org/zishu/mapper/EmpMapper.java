@@ -1,14 +1,12 @@
 package org.zishu.mapper;
 
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Options;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.zishu.pojo.Emp;
 import org.zishu.pojo.EmpQueryParam;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -59,4 +57,18 @@ public interface EmpMapper {
      * 根据ID更新员工的基本信息
      */
     void updateById(Emp emp);
+
+    /**
+     * 统计员工职位人数
+     * 此设计是为了处理动态字段、简化代码，并与 MyBatis 等框架的默认行为保持一致
+     * key:value -- key:字段名(pos,num)，value:字段值(4,7)
+     * Map无序，key重复时，后面的会覆盖前面的，无需指定@MapKey,加上也可
+     * 当你使用 @MapKey("pos") 时，
+     * MyBatis 会自动将每一行数据封装为一个 Map，并将这些 Map 放入一个 List 中
+     * 因此，@MapKey("pos") 只是为了方便地将 pos 字段作为键来标识每一条记录，
+     * 而不是直接生成最终需要的 Map<String, Integer>
+     */
+    @MapKey("pos")
+    List<Map<String, Object>> countEmpJobData();
+
 }
