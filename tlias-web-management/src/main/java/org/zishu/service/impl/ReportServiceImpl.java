@@ -18,6 +18,7 @@ public class ReportServiceImpl implements ReportService {
     @Autowired
     private DataSource dataSource;
 
+
     @Override
     public JobOption getEmpJobData() {
         //1.调用mapper接口，获取统计数据
@@ -27,5 +28,10 @@ public class ReportServiceImpl implements ReportService {
         List<Object> jobList = list.stream().map(dataMap -> dataMap.get("pos")).toList();
         List<Object> dataList = list.stream().map(dataMap -> dataMap.get("num")).toList();
         return new JobOption(jobList, dataList);
+    }
+
+    @Override
+    public List<Map<String, Object>> getEmpGenderData() {
+        return empMapper.countEmpGenderData();
     }
 }
