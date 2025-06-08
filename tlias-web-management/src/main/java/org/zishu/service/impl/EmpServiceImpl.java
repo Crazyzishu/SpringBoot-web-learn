@@ -104,7 +104,7 @@ public class EmpServiceImpl implements EmpService {
     @Transactional(rollbackFor = {Exception.class})//设置属性值，出现异常就回滚，而不是只有运行时异常才回滚
     @Override
     public void delete(List<Integer> ids) {
-        //1.批量生成员工的基本信息
+        //1.批量删除员工的基本信息
         empMapper.deleteByIds(ids);
 
         //2.批量删除员工的工作经历信息

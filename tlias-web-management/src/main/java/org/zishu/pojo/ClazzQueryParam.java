@@ -7,6 +7,8 @@ import java.time.LocalDate;
 
 /**
  * 请求参数类
+ * 这些字段用于构建 SQL 查询语句中的 WHERE 条件、LIMIT 分页等。
+ * 它的作用仅限于传递查询条件，不用于承载查询结果。
  */
 @Data
 public class ClazzQueryParam {

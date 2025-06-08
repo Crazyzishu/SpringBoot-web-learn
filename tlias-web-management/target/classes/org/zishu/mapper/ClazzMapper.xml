@@ -3,7 +3,17 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.zishu.mapper.ClazzMapper">
-
+    <update id="updateById">
+        update clazz set
+                         name = #{name},
+                         room = #{room},
+                         begin_date = #{beginDate},
+                         end_date = #{endDate},
+                         master_id = #{masterId},
+                         subject = #{subject},
+                         update_time = #{updateTime}
+        where id = #{id};
+    </update>
     <select id="list" resultType="org.zishu.pojo.Clazz">
         select c.*, e.name as master_name from clazz c left join emp e on c.master_id = e.id
         <where>
