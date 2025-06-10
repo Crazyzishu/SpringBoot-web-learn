@@ -26,6 +26,6 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PageResult<T> {
-    private Long total;
-    private List<T> rows;
+    private Long total;//总记录数
+    private List<T> rows;//存储当页的具体数据列表
 }

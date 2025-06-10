@@ -1,9 +1,6 @@
 package org.zishu.mapper;
 
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.zishu.pojo.Clazz;
 import org.zishu.pojo.ClazzQueryParam;
 
@@ -23,6 +20,7 @@ public interface ClazzMapper {
     @Delete("delete from clazz where id = #{id}")
     void deleteById(Integer id);
 
+    @Options(useGeneratedKeys = true,  keyProperty = "id")
     @Insert("insert into clazz(name, room, begin_date, end_date, master_id, subject, create_time, update_time) " +
             "values (#{name}, #{room}, #{beginDate}, #{endDate}, #{masterId}, #{subject}, #{createTime}, #{updateTime})")
     void add(Clazz clazz);

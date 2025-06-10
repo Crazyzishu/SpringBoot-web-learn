@@ -28,7 +28,7 @@ public class EmpController {
     private EmpService empService;
 
     /**
-     * 分页查询
+     * 条件分页查询
      */
 //    @GetMapping//直接指定请求方式为GET
 //    public Result page(@RequestParam(defaultValue = "1") Integer page,
