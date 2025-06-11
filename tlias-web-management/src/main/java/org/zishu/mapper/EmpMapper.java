@@ -40,7 +40,8 @@ public interface EmpMapper {
      */
     @Options(useGeneratedKeys = true,  keyProperty = "id")//获取到生成的主键 -- 主键返回
     @Insert("insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time)" +
-            "VALUES (#{username},#{name},#{gender},#{phone},#{job},#{salary},#{image},#{entryDate},#{deptId},#{createTime},#{updateTime})")
+            "VALUES " +
+            "(#{username},#{name},#{gender},#{phone},#{job},#{salary},#{image},#{entryDate},#{deptId},#{createTime},#{updateTime})")
     void insert(Emp emp);
 
     /**

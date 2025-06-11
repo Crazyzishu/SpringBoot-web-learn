@@ -40,4 +40,11 @@ public class StudentController {
         studentService.save(student);
         return Result.success();
     }
+
+    @GetMapping("/{id}")
+    public Result getInfo(@PathVariable Integer id){
+        log.info("根据id查找学员：{}",id);
+        Student student = studentService.getInfo(id);
+        return Result.success(student);
+    }
 }
