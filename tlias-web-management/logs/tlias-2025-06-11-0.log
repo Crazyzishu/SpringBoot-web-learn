@@ -1,0 +1,27 @@
+2025-06-11 11:40:49.078 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 5988 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-06-11 11:40:49.080 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-11 11:40:50.141 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-11 11:40:50.143 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-06-11 11:40:50.158 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-06-11 11:40:50.168 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-11 11:40:50.169 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-11 11:40:50.169 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-11 11:40:50.221 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-11 11:40:50.222 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1097 ms
+2025-06-11 11:40:51.084 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-11 11:40:51.103 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-11 11:40:51.111 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.404 seconds (process running for 3.773)
+2025-06-11 11:41:01.689 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-11 11:41:01.689 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-11 11:41:01.690 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-06-11 11:41:01.722 [http-nio-8080-exec-1] INFO  org.zishu.controller.StudentController-根据id查找学员：1
+2025-06-11 11:41:01.783 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-06-11 11:42:08.004 [http-nio-8080-exec-5] INFO  org.zishu.controller.ClazzController-查询所有班级信息
+2025-06-11 11:42:08.009 [http-nio-8080-exec-4] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-06-11 11:42:17.532 [http-nio-8080-exec-6] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=null, clazzId=1, page=1, pageSize=10)
+2025-06-11 11:42:21.241 [http-nio-8080-exec-7] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=4, clazzId=1, page=1, pageSize=10)
+2025-06-11 11:42:25.450 [http-nio-8080-exec-8] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-06-11 11:42:27.466 [http-nio-8080-exec-9] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=null, clazzId=1, page=1, pageSize=10)
+2025-06-11 11:42:32.620 [http-nio-8080-exec-10] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=2, clazzId=1, page=1, pageSize=10)
+2025-06-11 11:42:38.475 [http-nio-8080-exec-2] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-06-11 11:42:39.984 [http-nio-8080-exec-1] INFO  org.zishu.controller.StudentController-根据id查找学员：23
