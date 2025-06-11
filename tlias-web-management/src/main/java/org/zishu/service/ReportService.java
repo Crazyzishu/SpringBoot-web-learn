@@ -1,5 +1,6 @@
 package org.zishu.service;
 
+import org.zishu.pojo.ClassOption;
 import org.zishu.pojo.JobOption;
 
 import java.util.List;
@@ -13,4 +14,8 @@ public interface ReportService {
     JobOption getEmpJobData();
 
     List<Map<String, Object>> getEmpGenderData();
+
+    List<Map<String, Object>> getStudentDegreeData();
+
+    ClassOption getStudentCountData();
 }

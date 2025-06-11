@@ -5,6 +5,7 @@ import org.zishu.pojo.Student;
 import org.zishu.pojo.StudentQueryParam;
 
 import java.util.List;
+import java.util.Map;
 
 public interface StudentService {
 
@@ -19,4 +20,5 @@ public interface StudentService {
     void delete(List<Integer> ids);
 
     void violation(Integer id,Integer score);
+
 }

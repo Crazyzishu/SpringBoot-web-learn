@@ -1,12 +1,14 @@
 package org.zishu.mapper;
 
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.MapKey;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.zishu.pojo.Student;
 import org.zishu.pojo.StudentQueryParam;
 
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface StudentMapper {
@@ -27,4 +29,10 @@ public interface StudentMapper {
     void deleteByIds(List<Integer> ids);
 
     Student violation(Integer id,Integer score);
+
+    @MapKey("name")
+    List<Map<String, Object>> countStudentDegreeData();
+
+    @MapKey("ClazzName")
+    List<Map<String, Object>> countStudentClassData();
 }

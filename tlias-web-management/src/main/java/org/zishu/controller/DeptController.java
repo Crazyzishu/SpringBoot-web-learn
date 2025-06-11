@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import org.zishu.pojo.Dept;
 import org.zishu.pojo.Result;
 import org.zishu.service.DeptService;
+import org.zishu.service.ReportService;
 
 import java.util.List;
 
@@ -61,6 +62,13 @@ public class DeptController {
     public Result delete(Integer id){
 //        System.out.println("根据id删除部门："+ id);
         log.info("根据id删除部门：{}",id);
+
+        //1.检查部门下是否有员工
+        int empCount = deptService.getCountEmpByDeptId(id);
+        if(empCount > 0){
+            return Result.error("对不起，当前部门下有员工，不能直接删除!");
+        }
+        //2.删除部门
         deptService.deleteById(id);
         return Result.success();
     }

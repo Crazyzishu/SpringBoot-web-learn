@@ -20,4 +20,10 @@ public interface DeptService {
      * 修改部门
      */
     void update(Dept dept);
+
+
+    /**
+     * 根据部门ID统计员工数量
+     */
+    int getCountEmpByDeptId(Integer id);
 }
