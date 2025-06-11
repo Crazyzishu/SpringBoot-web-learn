@@ -16,8 +16,8 @@ import java.time.LocalDateTime;
 public class Student {
     private Integer id;
     private String name;
-    private Integer no;
-    private Integer gender;
+    private String no;
+    private String gender;
     private String phone;
     private Integer degree;
     private String idCard;

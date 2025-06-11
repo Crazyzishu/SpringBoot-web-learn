@@ -19,6 +19,7 @@ public class StudentServiceImpl implements StudentService {
 
     @Autowired
     private StudentMapper studentMapper;
+
     @Override
     public PageResult<Student> page(StudentQueryParam studentQueryParam) {
         //1.设置分页参数
@@ -43,5 +44,28 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public Student getInfo(Integer id) {
         return studentMapper.getById(id);
+    }
+
+    @Override
+    public void update(Student student) {
+        student.setUpdateTime(LocalDateTime.now());
+        studentMapper.update(student);
+    }
+
+    @Override
+    public void delete(List<Integer> ids) {
+        studentMapper.deleteByIds(ids);
+    }
+
+    /**
+     * 学员违纪扣分
+     */
+    @Override
+    public void violation(Integer id,Integer score) {
+        Student student = new Student();
+        student.setId(id);
+        student.setViolationScore(score);
+        student.setUpdateTime(LocalDateTime.now());
+        studentMapper.update(student);
     }
 }

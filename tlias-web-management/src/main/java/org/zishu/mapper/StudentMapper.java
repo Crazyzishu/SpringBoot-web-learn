@@ -21,4 +21,10 @@ public interface StudentMapper {
             "address, degree, graduation_date, clazz_id, violation_count," +
             " violation_score, create_time, update_time from student where id = #{id};")
     Student getById(Integer id);
+
+    void update(Student student);
+
+    void deleteByIds(List<Integer> ids);
+
+    Student violation(Integer id,Integer score);
 }
