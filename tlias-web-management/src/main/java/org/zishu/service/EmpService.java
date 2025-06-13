@@ -3,6 +3,7 @@ package org.zishu.service;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.zishu.pojo.Emp;
 import org.zishu.pojo.EmpQueryParam;
+import org.zishu.pojo.LoginInfo;
 import org.zishu.pojo.PageResult;
 
 import java.time.LocalDate;
@@ -38,4 +39,9 @@ public interface EmpService {
      * 查询全部员工信息
      */
     List<Emp> findAll();
+
+    /**
+     * 员工登录
+     */
+    LoginInfo login(Emp emp);
 }

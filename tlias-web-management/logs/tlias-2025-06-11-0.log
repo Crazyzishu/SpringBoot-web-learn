@@ -5223,3 +5223,144 @@ org.springframework.web.servlet.resource.NoResourceFoundException: No static res
 2025-06-11 18:08:38.537 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
 2025-06-11 18:08:38.539 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
 2025-06-11 18:08:38.543 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-06-11 20:35:23.202 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 17692 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-06-11 20:35:23.205 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-11 20:35:24.115 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-11 20:35:24.117 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-06-11 20:35:24.131 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-06-11 20:35:24.140 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-11 20:35:24.141 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-11 20:35:24.141 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-11 20:35:24.209 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-11 20:35:24.210 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 966 ms
+2025-06-11 20:35:24.940 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-11 20:35:24.958 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-11 20:35:24.965 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.119 seconds (process running for 3.388)
+2025-06-11 20:35:36.510 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-11 20:35:36.510 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-11 20:35:36.511 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-06-11 20:35:36.540 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计员工性别人数
+2025-06-11 20:35:36.540 [http-nio-8080-exec-1] INFO  org.zishu.controller.ReportController-统计员工职位人数
+2025-06-11 20:35:36.614 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-06-11 21:08:58.702 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-11 21:08:58.823 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-11 21:08:58.828 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-06-11 21:08:58.829 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-06-11 21:09:03.482 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 9692 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-06-11 21:09:03.484 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-11 21:09:04.259 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-11 21:09:04.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-06-11 21:09:04.266 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-06-11 21:09:04.273 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-11 21:09:04.274 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-11 21:09:04.274 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-11 21:09:04.319 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-11 21:09:04.320 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 805 ms
+2025-06-11 21:09:04.943 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-11 21:09:04.959 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-11 21:09:04.966 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.777 seconds (process running for 2.604)
+2025-06-11 21:09:27.191 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-11 21:09:27.191 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-11 21:09:27.192 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-11 21:09:27.279 [http-nio-8080-exec-1] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:09:27.340 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-06-11 21:09:27.499 [http-nio-8080-exec-1] INFO  org.zishu.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=123456, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:10:00.995 [http-nio-8080-exec-3] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjiang, password=12345, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:10:04.954 [http-nio-8080-exec-4] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:10:04.956 [http-nio-8080-exec-4] INFO  org.zishu.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=123456, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:10:39.636 [http-nio-8080-exec-6] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:10:39.639 [http-nio-8080-exec-6] INFO  org.zishu.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=123456, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:10:52.169 [http-nio-8080-exec-7] INFO  org.zishu.controller.ReportController-统计员工性别人数
+2025-06-11 21:10:52.169 [http-nio-8080-exec-5] INFO  org.zishu.controller.ReportController-统计员工职位人数
+2025-06-11 21:10:52.723 [http-nio-8080-exec-8] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-06-11 21:10:52.723 [http-nio-8080-exec-9] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-06-11 21:10:53.288 [http-nio-8080-exec-10] ERROR org.zishu.exception.GlobalExceptionHandler-程序出错了
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource log/page.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-06-11 21:11:01.115 [http-nio-8080-exec-2] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:11:05.468 [http-nio-8080-exec-3] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjian, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:11:08.660 [http-nio-8080-exec-4] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:11:08.662 [http-nio-8080-exec-4] INFO  org.zishu.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=123456, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-11 21:11:14.506 [http-nio-8080-exec-5] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-06-11 21:11:14.514 [http-nio-8080-exec-6] INFO  org.zishu.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-11 21:11:15.020 [http-nio-8080-exec-7] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-06-11 21:11:15.628 [http-nio-8080-exec-9] INFO  org.zishu.controller.ClazzController-查询所有班级信息
+2025-06-11 21:11:15.630 [http-nio-8080-exec-8] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-06-11 21:11:16.021 [http-nio-8080-exec-2] INFO  org.zishu.controller.EmpController-查询全部员工信息
+2025-06-11 21:11:16.023 [http-nio-8080-exec-10] INFO  org.zishu.controller.ClazzController-分页查询:ClazzQueryParam(name=, pageSize=10, page=1, begin=null, end=null)
+2025-06-11 21:11:16.984 [http-nio-8080-exec-3] INFO  org.zishu.controller.ClazzController-查询所有班级信息
+2025-06-11 21:11:16.984 [http-nio-8080-exec-1] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-06-11 21:11:17.865 [http-nio-8080-exec-5] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-06-11 21:11:17.865 [http-nio-8080-exec-4] INFO  org.zishu.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-11 21:11:18.172 [http-nio-8080-exec-6] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-06-11 21:11:18.632 [http-nio-8080-exec-9] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-06-11 21:11:18.633 [http-nio-8080-exec-7] INFO  org.zishu.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-11 21:11:19.744 [http-nio-8080-exec-8] INFO  org.zishu.controller.ReportController-统计员工职位人数
+2025-06-11 21:11:19.744 [http-nio-8080-exec-10] INFO  org.zishu.controller.ReportController-统计员工性别人数
+2025-06-11 21:11:20.374 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-06-11 21:11:20.374 [http-nio-8080-exec-3] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-06-11 21:11:22.841 [http-nio-8080-exec-1] INFO  org.zishu.controller.ReportController-统计员工职位人数
+2025-06-11 21:11:22.845 [http-nio-8080-exec-5] INFO  org.zishu.controller.ReportController-统计员工性别人数
+2025-06-11 21:11:38.924 [http-nio-8080-exec-6] INFO  org.zishu.controller.EmpController-查询全部员工信息
+2025-06-11 21:11:38.924 [http-nio-8080-exec-4] INFO  org.zishu.controller.ClazzController-分页查询:ClazzQueryParam(name=, pageSize=10, page=1, begin=null, end=null)
+2025-06-11 21:11:39.196 [http-nio-8080-exec-7] INFO  org.zishu.controller.ClazzController-查询所有班级信息
+2025-06-11 21:11:39.197 [http-nio-8080-exec-9] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-06-11 21:11:39.977 [http-nio-8080-exec-10] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-06-11 21:11:40.272 [http-nio-8080-exec-3] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-06-11 21:11:40.273 [http-nio-8080-exec-8] INFO  org.zishu.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-11 21:11:41.191 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计员工职位人数
+2025-06-11 21:11:41.196 [http-nio-8080-exec-1] INFO  org.zishu.controller.ReportController-统计员工性别人数
+2025-06-11 21:11:41.481 [http-nio-8080-exec-5] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-06-11 21:11:41.481 [http-nio-8080-exec-6] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-06-11 21:11:51.062 [http-nio-8080-exec-7] INFO  org.zishu.controller.EmpController-查询全部员工信息
+2025-06-11 21:11:51.062 [http-nio-8080-exec-4] INFO  org.zishu.controller.ClazzController-分页查询:ClazzQueryParam(name=, pageSize=10, page=1, begin=null, end=null)
+2025-06-11 21:11:51.908 [http-nio-8080-exec-10] INFO  org.zishu.controller.ClazzController-查询所有班级信息
+2025-06-11 21:11:51.909 [http-nio-8080-exec-9] INFO  org.zishu.controller.StudentController-分页查询：StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-06-11 21:11:54.504 [http-nio-8080-exec-3] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-06-11 21:11:54.856 [http-nio-8080-exec-2] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-06-11 21:11:54.856 [http-nio-8080-exec-8] INFO  org.zishu.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-11 23:00:44.787 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-11 23:00:45.362 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-11 23:00:45.364 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-06-11 23:00:45.365 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
