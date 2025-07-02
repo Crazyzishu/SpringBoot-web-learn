@@ -1,0 +1,80 @@
+2025-06-23 15:20:05.831 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 25940 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-06-23 15:20:05.833 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-23 15:20:06.957 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-23 15:20:06.961 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-06-23 15:20:06.978 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-06-23 15:20:06.989 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-23 15:20:06.990 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-23 15:20:06.991 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-23 15:20:07.072 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-23 15:20:07.072 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1195 ms
+2025-06-23 15:20:07.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-23 15:20:07.894 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-23 15:20:07.902 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.472 seconds (process running for 4.092)
+2025-06-23 15:20:12.791 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-23 15:20:12.792 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-23 15:20:12.793 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-23 15:20:12.816 [http-nio-8080-exec-2] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:12.816 [http-nio-8080-exec-1] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:12.816 [http-nio-8080-exec-3] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:18.946 [http-nio-8080-exec-6] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:18.946 [http-nio-8080-exec-5] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:18.946 [http-nio-8080-exec-4] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:31.416 [http-nio-8080-exec-7] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:31.416 [http-nio-8080-exec-8] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:31.492 [http-nio-8080-exec-9] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:36.604 [http-nio-8080-exec-2] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:36.604 [http-nio-8080-exec-1] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:36.604 [http-nio-8080-exec-10] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:44.942 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-23 15:20:45.553 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-23 15:20:45.556 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-0} closing ...
+2025-06-23 15:20:47.923 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 5876 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-06-23 15:20:47.924 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-23 15:20:48.732 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-23 15:20:48.735 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-06-23 15:20:48.739 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-06-23 15:20:48.747 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-23 15:20:48.748 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-23 15:20:48.748 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-23 15:20:48.790 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-23 15:20:48.791 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 831 ms
+2025-06-23 15:20:49.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-23 15:20:49.406 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-23 15:20:49.413 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.797 seconds (process running for 2.611)
+2025-06-23 15:20:54.810 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-23 15:20:54.810 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-23 15:20:54.811 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-23 15:20:54.831 [http-nio-8080-exec-2] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:54.831 [http-nio-8080-exec-3] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:54.831 [http-nio-8080-exec-1] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:20:59.757 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-23 15:21:00.313 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-23 15:21:00.315 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-0} closing ...
+2025-06-23 15:21:08.247 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 1188 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-06-23 15:21:08.250 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-23 15:21:09.045 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-23 15:21:09.047 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-06-23 15:21:09.051 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-06-23 15:21:09.058 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-23 15:21:09.058 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-23 15:21:09.060 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-23 15:21:09.105 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-23 15:21:09.105 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 824 ms
+2025-06-23 15:21:09.716 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-23 15:21:09.733 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-23 15:21:09.740 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.784 seconds (process running for 2.567)
+2025-06-23 15:21:16.670 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-23 15:21:16.670 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-23 15:21:16.671 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-23 15:21:16.689 [http-nio-8080-exec-2] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:21:16.689 [http-nio-8080-exec-1] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:21:16.741 [http-nio-8080-exec-3] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:21:18.965 [http-nio-8080-exec-4] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:21:19.726 [http-nio-8080-exec-5] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:21:19.726 [http-nio-8080-exec-7] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:21:19.726 [http-nio-8080-exec-6] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:21:20.521 [http-nio-8080-exec-8] INFO  org.zishu.interceptor.TokenInterceptor-令牌为空,响应401状态码
+2025-06-23 15:21:29.256 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-23 15:21:29.860 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-23 15:21:29.863 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-0} closing ...

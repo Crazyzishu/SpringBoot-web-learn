@@ -1,0 +1,16 @@
+2025-06-16 08:54:33.876 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 28480 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-06-16 08:54:33.878 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-16 08:54:34.873 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-16 08:54:34.876 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-06-16 08:54:34.890 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-06-16 08:54:34.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-16 08:54:34.902 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-16 08:54:34.902 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-16 08:54:34.971 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-16 08:54:34.971 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1054 ms
+2025-06-16 08:54:35.691 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-16 08:54:35.710 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-16 08:54:35.718 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.225 seconds (process running for 3.51)
+2025-06-16 18:27:14.291 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-16 18:27:14.911 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-16 18:27:14.922 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-0} closing ...

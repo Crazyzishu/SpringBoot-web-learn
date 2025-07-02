@@ -2,6 +2,7 @@ package org.zishu.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 import org.zishu.pojo.*;
 import org.zishu.service.ClazzService;
@@ -12,7 +13,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/clazzs")
 public class ClazzController {
-
     @Autowired
     private ClazzService clazzService;
 
