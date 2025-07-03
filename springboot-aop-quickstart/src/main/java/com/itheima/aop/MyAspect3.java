@@ -8,9 +8,9 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Slf4j
-@Order(5)
 @Component
 //@Aspect
+@Order(5)
 public class MyAspect3 {
     //前置通知
     @Before("execution(* com.itheima.service.impl.*.*(..))")

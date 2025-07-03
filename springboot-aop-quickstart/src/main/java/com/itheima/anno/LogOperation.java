@@ -1,0 +1,11 @@
+package com.itheima.anno;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target(ElementType.METHOD)//指定此注解在哪生效
+@Retention(RetentionPolicy.RUNTIME)//指定此注解运行时生效
+public @interface LogOperation {
+}

@@ -8,8 +8,8 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Slf4j
-@Order(8)
 @Component
+@Order(8)
 //@Aspect
 public class MyAspect2 {
     //前置通知
