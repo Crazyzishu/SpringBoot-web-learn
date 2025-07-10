@@ -1,0 +1,503 @@
+2025-07-04 16:00:58.804 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 28356 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-04 16:00:58.807 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-04 16:00:59.859 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-04 16:00:59.863 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-04 16:00:59.878 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-04 16:00:59.888 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-04 16:00:59.889 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-04 16:00:59.889 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04 16:00:59.958 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-04 16:00:59.958 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1114 ms
+2025-07-04 16:01:00.704 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-04 16:01:00.721 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-04 16:01:00.728 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.275 seconds (process running for 3.59)
+2025-07-04 16:35:48.302 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04 16:35:48.303 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-04 16:35:48.304 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-04 16:35:48.378 [http-nio-8080-exec-1] INFO  org.zishu.interceptor.TokenInterceptor-令牌非法,响应401状态码
+2025-07-04 16:35:55.621 [http-nio-8080-exec-2] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-07-04 16:35:55.680 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-04 16:35:55.840 [http-nio-8080-exec-2] INFO  org.zishu.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=123456, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-07-04 16:35:57.168 [http-nio-8080-exec-3] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:35:57.169 [http-nio-8080-exec-3] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 16:54:38.452 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04 16:54:38.785 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-04 16:54:38.788 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-04 16:54:38.798 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-04 16:54:42.874 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 14104 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-04 16:54:42.876 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-04 16:54:43.768 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-04 16:54:43.770 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-04 16:54:43.773 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-04 16:54:43.781 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-04 16:54:43.782 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-04 16:54:43.782 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04 16:54:43.823 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-04 16:54:43.823 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 912 ms
+2025-07-04 16:54:44.462 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-04 16:54:44.480 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-04 16:54:44.485 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.909 seconds (process running for 2.685)
+2025-07-04 16:55:04.221 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04 16:55:04.221 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-04 16:55:04.221 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-07-04 16:55:04.277 [http-nio-8080-exec-1] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:55:04.332 [http-nio-8080-exec-1] INFO  org.zishu.controller.DeptController-新增部门：Dept(id=null, name=111, createTime=null, updateTime=null)
+2025-07-04 16:55:04.381 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-04 16:55:04.517 [http-nio-8080-exec-1] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 16:55:04.550 [http-nio-8080-exec-2] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:55:04.551 [http-nio-8080-exec-2] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 16:55:05.709 [http-nio-8080-exec-3] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:55:05.711 [http-nio-8080-exec-3] INFO  org.zishu.controller.DeptController-根据id查询部门：4
+2025-07-04 16:55:07.579 [http-nio-8080-exec-4] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:55:07.579 [http-nio-8080-exec-4] INFO  org.zishu.controller.DeptController-根据id查询部门：19
+2025-07-04 16:55:09.746 [http-nio-8080-exec-5] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:55:09.748 [http-nio-8080-exec-5] INFO  org.zishu.controller.DeptController-修改部门：Dept(id=19, name=111222, createTime=2025-07-04T16:55:04, updateTime=2025-07-04T16:55:04)
+2025-07-04 16:55:09.753 [http-nio-8080-exec-5] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 16:55:09.764 [http-nio-8080-exec-6] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:55:09.765 [http-nio-8080-exec-6] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 16:55:11.039 [http-nio-8080-exec-7] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:55:11.042 [http-nio-8080-exec-7] INFO  org.zishu.controller.DeptController-根据id删除部门：19
+2025-07-04 16:55:11.046 [http-nio-8080-exec-7] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 16:55:11.055 [http-nio-8080-exec-8] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:55:11.056 [http-nio-8080-exec-8] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 16:58:46.103 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04 16:58:46.466 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-04 16:58:46.469 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-04 16:58:46.474 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-04 16:58:48.718 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 12552 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-04 16:58:48.720 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-04 16:58:49.588 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-04 16:58:49.590 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-04 16:58:49.594 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-04 16:58:49.601 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-04 16:58:49.602 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-04 16:58:49.602 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04 16:58:49.644 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-04 16:58:49.644 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 894 ms
+2025-07-04 16:58:50.303 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-04 16:58:50.319 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-04 16:58:50.326 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.886 seconds (process running for 2.69)
+2025-07-04 16:58:56.089 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04 16:58:56.089 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-04 16:58:56.090 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-04 16:58:56.160 [http-nio-8080-exec-1] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:58:56.168 [http-nio-8080-exec-1] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 16:58:56.219 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-04 16:59:01.870 [http-nio-8080-exec-2] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:59:01.900 [http-nio-8080-exec-2] INFO  org.zishu.controller.DeptController-新增部门：Dept(id=null, name=111, createTime=null, updateTime=null)
+2025-07-04 16:59:01.907 [http-nio-8080-exec-2] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 16:59:01.922 [http-nio-8080-exec-3] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:59:01.922 [http-nio-8080-exec-3] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 16:59:55.979 [http-nio-8080-exec-4] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-07-04 16:59:55.989 [http-nio-8080-exec-4] INFO  org.zishu.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=123456, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-07-04 16:59:57.562 [http-nio-8080-exec-5] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 16:59:57.562 [http-nio-8080-exec-5] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 17:00:01.270 [http-nio-8080-exec-6] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 17:00:01.274 [http-nio-8080-exec-6] INFO  org.zishu.controller.DeptController-根据id删除部门：20
+2025-07-04 17:00:01.285 [http-nio-8080-exec-6] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 17:00:01.293 [http-nio-8080-exec-7] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 17:00:01.295 [http-nio-8080-exec-7] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 17:03:28.845 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04 17:03:29.206 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-04 17:03:29.209 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-04 17:03:29.213 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-04 17:03:31.390 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 26028 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-04 17:03:31.392 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-04 17:03:32.280 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-04 17:03:32.282 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-04 17:03:32.286 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-04 17:03:32.294 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-04 17:03:32.295 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-04 17:03:32.295 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04 17:03:32.334 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-04 17:03:32.334 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 911 ms
+2025-07-04 17:03:32.985 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-04 17:03:33.002 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-04 17:03:33.008 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.897 seconds (process running for 2.657)
+2025-07-04 17:03:48.287 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04 17:03:48.287 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-04 17:03:48.288 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-04 17:03:48.438 [http-nio-8080-exec-1] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 17:03:48.565 [http-nio-8080-exec-1] INFO  org.zishu.controller.DeptController-新增部门：Dept(id=null, name=111, createTime=null, updateTime=null)
+2025-07-04 17:03:48.663 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-04 17:03:48.964 [http-nio-8080-exec-1] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 17:05:40.075 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04 17:05:40.429 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-04 17:05:40.432 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-04 17:05:40.437 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-04 17:05:44.589 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 27784 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-04 17:05:44.591 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-04 17:05:46.309 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-04 17:05:46.313 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-04 17:05:46.316 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-04 17:05:46.328 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-04 17:05:46.330 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-04 17:05:46.330 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04 17:05:46.405 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-04 17:05:46.405 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1782 ms
+2025-07-04 17:05:47.618 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-04 17:05:47.657 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-04 17:05:47.666 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 3.384 seconds (process running for 4.207)
+2025-07-04 17:06:12.868 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04 17:06:12.868 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-04 17:06:12.869 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-04 17:06:13.004 [http-nio-8080-exec-1] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 17:06:13.110 [http-nio-8080-exec-1] INFO  org.zishu.controller.DeptController-新增部门：Dept(id=null, name=111, createTime=null, updateTime=null)
+2025-07-04 17:06:13.187 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-04 17:06:13.629 [http-nio-8080-exec-1] ERROR org.zishu.exception.GlobalExceptionHandler-程序出错了
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '111' for key 'dept.name'
+### The error may exist in org/zishu/mapper/DeptMapper.java (best guess)
+### The error may involve org.zishu.mapper.DeptMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into dept(name, create_time, update_time) VALUES (?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '111' for key 'dept.name'
+; Duplicate entry '111' for key 'dept.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy67.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy80.insert(Unknown Source)
+	at org.zishu.service.impl.DeptServiceImpl.add(DeptServiceImpl.java:36)
+	at org.zishu.controller.DeptController.add(DeptController.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at org.zishu.aop.LoggingAspect.logExecutionTime(LoggingAspect.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at org.zishu.controller.DeptController$$SpringCGLIB$$0.add(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '111' for key 'dept.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy100.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy98.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 79 common frames omitted
+2025-07-04 17:06:16.831 [http-nio-8080-exec-3] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 17:06:16.831 [http-nio-8080-exec-2] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 17:06:16.831 [http-nio-8080-exec-3] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 17:06:16.854 [http-nio-8080-exec-2] INFO  org.zishu.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-07-04 17:06:17.013 [http-nio-8080-exec-4] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 17:06:17.014 [http-nio-8080-exec-4] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 17:06:21.634 [http-nio-8080-exec-5] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 17:06:21.636 [http-nio-8080-exec-5] INFO  org.zishu.controller.DeptController-根据id删除部门：21
+2025-07-04 17:06:21.647 [http-nio-8080-exec-5] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 17:11:11.264 [http-nio-8080-exec-6] INFO  org.zishu.interceptor.TokenInterceptor-令牌合法,放行
+2025-07-04 17:11:11.264 [http-nio-8080-exec-6] INFO  org.zishu.controller.DeptController-根据id删除部门：21
+2025-07-04 17:11:11.278 [http-nio-8080-exec-6] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 17:11:11.281 [http-nio-8080-exec-5] ERROR org.zishu.exception.GlobalExceptionHandler-程序出错了
+org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleHttpServletResponse.handleIOException(StandardServletAsyncWebRequest.java:346)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:418)
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1205)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:486)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:126)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:345)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:208)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:304)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:266)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:133)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:415)
+	... 52 common frames omitted
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1380)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:574)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.flush(IdentityOutputFilter.java:117)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1271)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:408)
+	at org.apache.coyote.Response.action(Response.java:208)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:300)
+	... 55 common frames omitted
+2025-07-04 17:11:11.287 [http-nio-8080-exec-6] ERROR org.zishu.exception.GlobalExceptionHandler-程序出错了
+org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleHttpServletResponse.handleIOException(StandardServletAsyncWebRequest.java:346)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:418)
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1205)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:486)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:126)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:345)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:208)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:304)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:266)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:133)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:415)
+	... 52 common frames omitted
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1380)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:574)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.flush(IdentityOutputFilter.java:117)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1271)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:408)
+	at org.apache.coyote.Response.action(Response.java:208)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:300)
+	... 55 common frames omitted
+2025-07-04 17:11:11.306 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04 17:11:11.678 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-04 17:11:11.681 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-04 17:11:11.686 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-04 17:12:03.276 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 18632 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-04 17:12:03.278 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-04 17:12:04.892 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-04 17:12:04.895 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-04 17:12:04.899 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-04 17:12:04.910 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-04 17:12:04.912 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-04 17:12:04.912 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04 17:12:04.987 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-04 17:12:04.987 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1676 ms
+2025-07-04 17:12:06.155 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-04 17:12:06.199 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-04 17:12:06.209 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 3.22 seconds (process running for 3.968)
+2025-07-04 17:12:12.105 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04 17:12:12.105 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-04 17:12:12.106 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-04 17:12:12.212 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:12.212 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:12.215 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:12.215 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:12.280 [http-nio-8080-exec-2] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 17:12:12.333 [http-nio-8080-exec-1] INFO  org.zishu.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-07-04 17:12:12.393 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-04 17:12:12.746 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:12.746 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:12.746 [http-nio-8080-exec-3] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 17:12:19.358 [http-nio-8080-exec-4] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:19.358 [http-nio-8080-exec-4] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:19.401 [http-nio-8080-exec-4] INFO  org.zishu.controller.DeptController-新增部门：Dept(id=null, name=111, createTime=null, updateTime=null)
+2025-07-04 17:12:19.412 [http-nio-8080-exec-4] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 17:12:34.346 [http-nio-8080-exec-5] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:34.347 [http-nio-8080-exec-5] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:34.347 [http-nio-8080-exec-5] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 17:12:48.609 [http-nio-8080-exec-6] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:48.609 [http-nio-8080-exec-6] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:48.610 [http-nio-8080-exec-6] INFO  org.zishu.controller.DeptController-根据id查询部门：23
+2025-07-04 17:12:50.322 [http-nio-8080-exec-7] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:50.322 [http-nio-8080-exec-7] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:50.324 [http-nio-8080-exec-7] INFO  org.zishu.controller.DeptController-修改部门：Dept(id=23, name=111222, createTime=2025-07-04T17:12:19, updateTime=2025-07-04T17:12:19)
+2025-07-04 17:12:50.334 [http-nio-8080-exec-7] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 17:12:50.344 [http-nio-8080-exec-9] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:50.344 [http-nio-8080-exec-9] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:50.346 [http-nio-8080-exec-9] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 17:12:51.661 [http-nio-8080-exec-8] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:51.661 [http-nio-8080-exec-8] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:51.662 [http-nio-8080-exec-8] INFO  org.zishu.controller.DeptController-根据id删除部门：23
+2025-07-04 17:12:51.672 [http-nio-8080-exec-8] INFO  org.zishu.aop.LoggingAspect-记录操作日志:Logger[org.zishu.aop.LoggingAspect]
+2025-07-04 17:12:51.680 [http-nio-8080-exec-10] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-04 17:12:51.680 [http-nio-8080-exec-10] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-04 17:12:51.680 [http-nio-8080-exec-10] INFO  org.zishu.controller.DeptController-查询所有部门信息
+2025-07-04 17:26:56.943 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04 17:26:57.285 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-04 17:26:57.289 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-04 17:26:57.293 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed

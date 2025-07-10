@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.zishu.anno.Log;
 import org.zishu.pojo.Dept;
 import org.zishu.pojo.Result;
 import org.zishu.service.DeptService;
@@ -58,6 +59,7 @@ public class DeptController {
     /**
      * 删除部门 - 方式三：省略@RequestParam注解（前端传递的参数名与服务端方法形参名一致）[推荐]
      */
+    @Log
     @DeleteMapping
     public Result delete(Integer id){
 //        System.out.println("根据id删除部门："+ id);
@@ -76,6 +78,7 @@ public class DeptController {
     /**
      * 新增部门
      */
+    @Log
     @PostMapping
     public Result add(@RequestBody Dept dept){
 //        System.out.println("新增部门："+ dept);
@@ -97,6 +100,7 @@ public class DeptController {
     /**
      * 修改部门
      */
+    @Log
     @PutMapping
     public Result update(@RequestBody Dept dept){//@RequestBody将前台发送的json数据转为java对象
 //        System.out.println("修改部门："+ dept);

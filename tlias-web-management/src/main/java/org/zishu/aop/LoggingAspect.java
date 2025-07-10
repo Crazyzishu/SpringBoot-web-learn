@@ -1,5 +1,6 @@
 package org.zishu.aop;
 
+import lombok.extern.slf4j.Slf4j;
 import org.zishu.pojo.OperateLog;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -7,10 +8,12 @@ import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.zishu.mapper.OperateLogMapper;
+import org.zishu.utils.CurrentHolder;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
 
+@Slf4j
 @Aspect
 @Component
 public class LoggingAspect {
@@ -45,8 +48,10 @@ public class LoggingAspect {
         operateLog.setClassName(className);
         operateLog.setMethodName(methodName);
         operateLog.setMethodParams(methodParams);
-        operateLog.setReturnValue(result == null ? "" : result.toString());
+        operateLog.setReturnValue(result == null ? "void" : result.toString());
         operateLog.setCostTime(executionTime);
+
+        log.info("记录操作日志:{}",log);
 
         // 插入日志到数据库
         operateLogMapper.insert(operateLog);
@@ -55,8 +60,6 @@ public class LoggingAspect {
     }
 
     private Integer getCurrentUser() {
-        // 这里应该从上下文中获取当前登录用户的ID
-        // 假设返回一个固定的ID作为示例
-        return 1;
+        return CurrentHolder.getCurrentId();
     }
 }
