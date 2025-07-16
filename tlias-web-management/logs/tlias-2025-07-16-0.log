@@ -1,0 +1,306 @@
+2025-07-16 19:13:19.449 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 17612 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-16 19:13:19.452 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-16 19:13:20.473 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-16 19:13:20.476 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-16 19:13:20.490 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-16 19:13:20.500 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:13:20.502 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-16 19:13:20.502 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-16 19:13:20.569 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-16 19:13:20.570 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1080 ms
+2025-07-16 19:13:21.283 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:13:21.301 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 19:13:21.306 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.192 seconds (process running for 3.473)
+2025-07-16 19:13:25.314 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 19:13:25.314 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-16 19:13:25.315 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-07-16 19:13:25.372 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌非法,响应401状态码
+2025-07-16 19:13:25.372 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌非法,响应401状态码
+2025-07-16 19:13:29.762 [http-nio-8080-exec-4] INFO  org.zishu.filter.TokenFilter-令牌非法,响应401状态码
+2025-07-16 19:13:54.597 [http-nio-8080-exec-5] INFO  org.zishu.filter.TokenFilter-登录请求,放行
+2025-07-16 19:13:54.677 [http-nio-8080-exec-5] INFO  org.zishu.controller.LoginController-登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-07-16 19:13:54.742 [http-nio-8080-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-16 19:13:54.930 [http-nio-8080-exec-5] INFO  org.zishu.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=123456, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-07-16 19:13:58.135 [http-nio-8080-exec-6] INFO  org.zishu.filter.TokenFilter-令牌非法,响应401状态码
+2025-07-16 19:14:09.120 [http-nio-8080-exec-8] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:14:09.120 [http-nio-8080-exec-7] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:14:09.120 [http-nio-8080-exec-8] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:14:09.120 [http-nio-8080-exec-7] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:14:09.121 [http-nio-8080-exec-7] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:14:09.121 [http-nio-8080-exec-8] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:14:09.601 [http-nio-8080-exec-9] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:14:09.601 [http-nio-8080-exec-9] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:14:09.607 [http-nio-8080-exec-9] ERROR org.zishu.exception.GlobalExceptionHandler-程序出错了
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource log/page.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.zishu.filter.TokenFilter.doFilter(TokenFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-07-16 19:14:45.053 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 19:14:45.443 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-16 19:14:45.446 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-16 19:14:45.457 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-16 19:14:49.379 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 21936 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-16 19:14:49.381 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-16 19:14:50.262 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-16 19:14:50.264 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-16 19:14:50.268 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-16 19:14:50.275 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:14:50.276 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-16 19:14:50.277 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-16 19:14:50.314 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-16 19:14:50.315 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 900 ms
+2025-07-16 19:14:50.957 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:14:50.973 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 19:14:50.980 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.902 seconds (process running for 2.654)
+2025-07-16 19:15:00.260 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 19:15:00.260 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-16 19:15:00.261 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-16 19:15:00.316 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:15:00.316 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:15:00.317 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:15:00.317 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:15:00.336 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:15:00.336 [http-nio-8080-exec-1] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:15:00.392 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-16 19:15:00.598 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:15:00.598 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:15:00.609 [http-nio-8080-exec-3] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15)
+2025-07-16 19:15:49.001 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 19:15:49.389 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-16 19:15:49.392 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-16 19:15:49.396 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-16 19:15:53.407 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 27496 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-16 19:15:53.408 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-16 19:15:54.296 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-16 19:15:54.298 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-16 19:15:54.301 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-16 19:15:54.308 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:15:54.310 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-16 19:15:54.310 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-16 19:15:54.352 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-16 19:15:54.352 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 914 ms
+2025-07-16 19:15:54.990 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:15:55.007 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 19:15:55.013 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.915 seconds (process running for 2.727)
+2025-07-16 19:16:02.283 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 19:16:02.283 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-16 19:16:02.284 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-16 19:16:02.342 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:16:02.342 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:16:02.343 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:16:02.343 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:16:02.365 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计员工职位人数
+2025-07-16 19:16:02.365 [http-nio-8080-exec-1] INFO  org.zishu.controller.ReportController-统计员工性别人数
+2025-07-16 19:16:02.421 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-16 19:16:02.734 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:16:02.735 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:16:02.750 [http-nio-8080-exec-3] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15, empName=null)
+2025-07-16 19:19:55.190 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 19:19:55.610 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-16 19:19:55.614 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-16 19:19:55.618 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-16 19:19:59.943 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 15372 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-16 19:19:59.945 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-16 19:20:00.923 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-16 19:20:00.925 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-16 19:20:00.930 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-16 19:20:00.940 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:20:00.941 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-16 19:20:00.942 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-16 19:20:00.988 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-16 19:20:00.990 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1012 ms
+2025-07-16 19:20:01.719 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:20:01.737 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 19:20:01.743 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.107 seconds (process running for 2.958)
+2025-07-16 19:20:18.971 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 19:20:18.971 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-16 19:20:18.972 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-07-16 19:20:19.024 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:20:19.024 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:20:19.026 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:20:19.026 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:20:19.044 [http-nio-8080-exec-1] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:20:19.044 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:20:19.091 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-16 19:20:19.187 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:20:19.187 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:20:19.197 [http-nio-8080-exec-3] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15, operateEmpName=null)
+2025-07-16 19:21:10.786 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 19:21:11.168 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-16 19:21:11.171 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-16 19:21:11.174 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-16 19:21:15.048 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 11652 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-16 19:21:15.049 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-16 19:21:15.934 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-16 19:21:15.936 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-16 19:21:15.940 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-16 19:21:15.947 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:21:15.948 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-16 19:21:15.948 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-16 19:21:15.990 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-16 19:21:15.990 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 909 ms
+2025-07-16 19:21:16.645 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:21:16.662 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 19:21:16.668 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.902 seconds (process running for 2.647)
+2025-07-16 19:21:18.403 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 19:21:18.404 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-16 19:21:18.404 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-07-16 19:21:18.457 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:21:18.457 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:21:18.458 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:21:18.458 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:21:18.477 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:21:18.477 [http-nio-8080-exec-1] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:21:18.524 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-16 19:21:18.625 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:21:18.627 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:21:18.642 [http-nio-8080-exec-3] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15)
+2025-07-16 19:21:25.486 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 19:21:25.883 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-16 19:21:25.886 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-16 19:21:25.890 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-16 19:21:29.868 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 13556 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-16 19:21:29.872 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-16 19:21:30.817 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-16 19:21:30.819 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-16 19:21:30.822 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-16 19:21:30.831 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:21:30.832 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-16 19:21:30.833 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-16 19:21:30.880 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-16 19:21:30.880 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 974 ms
+2025-07-16 19:21:31.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:21:31.566 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 19:21:31.573 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.011 seconds (process running for 2.832)
+2025-07-16 19:21:34.597 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 19:21:34.597 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-16 19:21:34.597 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-07-16 19:21:34.650 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:21:34.650 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:21:34.651 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:21:34.651 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:21:34.675 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:21:34.675 [http-nio-8080-exec-1] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:21:34.721 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-16 19:21:34.844 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:21:34.844 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:21:34.858 [http-nio-8080-exec-3] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15, operateEmpName=null)
+2025-07-16 19:21:35.718 [http-nio-8080-exec-4] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:21:35.718 [http-nio-8080-exec-5] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:21:35.718 [http-nio-8080-exec-4] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:21:35.718 [http-nio-8080-exec-5] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:21:35.718 [http-nio-8080-exec-4] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:21:35.718 [http-nio-8080-exec-5] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:21:35.941 [http-nio-8080-exec-6] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:21:35.942 [http-nio-8080-exec-6] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:21:35.942 [http-nio-8080-exec-6] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15, operateEmpName=null)
+2025-07-16 19:22:01.321 [http-nio-8080-exec-8] INFO  org.zishu.filter.TokenFilter-令牌非法,响应401状态码
+2025-07-16 19:22:59.619 [http-nio-8080-exec-9] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:22:59.619 [http-nio-8080-exec-10] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:22:59.619 [http-nio-8080-exec-9] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:22:59.619 [http-nio-8080-exec-10] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:22:59.619 [http-nio-8080-exec-10] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:22:59.619 [http-nio-8080-exec-9] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:22:59.634 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:22:59.634 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:22:59.636 [http-nio-8080-exec-1] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15, operateEmpName=null)
+2025-07-16 19:23:00.142 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:23:00.142 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:23:00.142 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:23:00.142 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:23:00.142 [http-nio-8080-exec-3] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:23:00.142 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:23:00.389 [http-nio-8080-exec-5] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:23:00.390 [http-nio-8080-exec-5] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:23:00.391 [http-nio-8080-exec-5] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15, operateEmpName=null)
+2025-07-16 19:23:03.152 [http-nio-8080-exec-6] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:23:03.152 [http-nio-8080-exec-6] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:23:03.152 [http-nio-8080-exec-6] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:23:03.152 [http-nio-8080-exec-7] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:23:03.152 [http-nio-8080-exec-7] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:23:03.154 [http-nio-8080-exec-7] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:23:03.365 [http-nio-8080-exec-8] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:23:03.365 [http-nio-8080-exec-8] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:23:03.366 [http-nio-8080-exec-8] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15, operateEmpName=null)
+2025-07-16 19:26:31.893 [http-nio-8080-exec-10] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:26:31.894 [http-nio-8080-exec-10] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:26:31.895 [http-nio-8080-exec-10] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=10, operateEmpName=null)
+2025-07-16 19:26:38.748 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌非法,响应401状态码
+2025-07-16 19:26:39.959 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌非法,响应401状态码
+2025-07-16 19:26:44.218 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-令牌为空,响应401状态码
+2025-07-16 19:27:40.777 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 19:27:41.147 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-16 19:27:41.151 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-16 19:27:41.155 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2025-07-16 19:27:45.096 [main] INFO  org.zishu.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.4.1 with PID 28148 (D:\idea\code\SpringBoot-web-learn\tlias-web-management\target\classes started by lizis in D:\idea\code\SpringBoot-web-learn)
+2025-07-16 19:27:45.098 [main] INFO  org.zishu.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-07-16 19:27:45.976 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-07-16 19:27:45.978 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-07-16 19:27:45.982 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-07-16 19:27:45.990 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:27:45.991 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-07-16 19:27:45.992 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-16 19:27:46.033 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-07-16 19:27:46.033 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 905 ms
+2025-07-16 19:27:46.703 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-07-16 19:27:46.719 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 19:27:46.726 [main] INFO  org.zishu.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.912 seconds (process running for 2.675)
+2025-07-16 19:28:05.021 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 19:28:05.021 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-07-16 19:28:05.022 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-07-16 19:28:05.074 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:28:05.074 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:28:05.075 [http-nio-8080-exec-1] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:28:05.075 [http-nio-8080-exec-2] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:28:05.098 [http-nio-8080-exec-1] INFO  org.zishu.controller.ReportController-统计每个班级学员人数
+2025-07-16 19:28:05.098 [http-nio-8080-exec-2] INFO  org.zishu.controller.ReportController-统计学员学历人数
+2025-07-16 19:28:05.144 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2025-07-16 19:28:05.243 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-当前登录员工ID：2,将其存入TreadLocal
+2025-07-16 19:28:05.244 [http-nio-8080-exec-3] INFO  org.zishu.filter.TokenFilter-令牌合法,放行
+2025-07-16 19:28:05.257 [http-nio-8080-exec-3] INFO  org.zishu.controller.OperateLogController-分页查询：OperateLogQueryParam(page=1, pageSize=15, operateEmpName=null)
+2025-07-16 19:43:13.197 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 19:43:13.637 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-07-16 19:43:13.640 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2025-07-16 19:43:13.644 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
