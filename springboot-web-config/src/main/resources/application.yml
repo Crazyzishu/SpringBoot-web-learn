@@ -1,10 +1,12 @@
+server:
+  port: 8083
 spring:
   #数据库连接信息
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tlias
     username: root
-    password: 1234
+    password: 111111
 #Mybatis配置
 mybatis:
   configuration:
@@ -16,3 +18,4 @@ aliyun:
     endpoint: https://oss-cn-beijing.aliyuncs.com
     bucketName: java-ai
     region: cn-beijing
+
