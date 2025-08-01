@@ -4,11 +4,24 @@ import com.itheima.pojo.Dept;
 import com.itheima.pojo.Result;
 import com.itheima.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.context.annotation.Scope;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+/**
+ * 默认bean是单例的 - singleton : 默认单例的bean是在项目启动时，创建的，创建完毕后，会将该bean存入IOC容器
+ */
+
+//@Lazy//延迟初始化 --->延迟到第一次使用时，再来创建这个bean
+
+@Scope("prototype") //非单例 设为多例bean
 @RestController
 public class DeptController {
+
+    public DeptController() {
+        System.out.println("创建DeptController对象");
+    }
 
     @Autowired
     private DeptService deptService;

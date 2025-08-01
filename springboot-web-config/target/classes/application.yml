@@ -16,6 +16,6 @@ mybatis:
 aliyun:
   oss:
     endpoint: https://oss-cn-beijing.aliyuncs.com
-    bucketName: java-ai
+    bucketName: java-spring-web-learn
     region: cn-beijing
 
