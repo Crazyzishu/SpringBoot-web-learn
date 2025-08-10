@@ -1,6 +1,10 @@
 package com.itheima;
 
 import cn.hutool.core.io.FileUtil;
+import com.example.HeaderParser;
+import com.example.TokenParser;
+import com.google.gson.Gson;
+import com.itheima.pojo.Result;
 import com.itheima.utils.AliyunOSSOperator;
 import com.itheima.utils.AliyunOSSProperties;
 import org.apache.tomcat.util.http.fileupload.FileUpload;
@@ -15,10 +19,17 @@ import java.io.File;
 class SpringbootWebTests {
 
     @Autowired
-    private ApplicationContext applicationContext;
+    private ApplicationContext applicationContext;//IOC容器
 
     @Autowired
     private AliyunOSSOperator aliyunOSSOperator;
+
+    @Autowired
+    private Gson gson;
+
+    @Test
+    public void tsetJson(){
+        System.out.println(gson.toJson(Result.success("Hello Gson")));    }
 
     @Test
     public void testScope(){
@@ -33,5 +44,20 @@ class SpringbootWebTests {
         File file = new File("D:\\桌面\\456.png");
         String url = aliyunOSSOperator.upload(FileUtil.readBytes(file), "456.png");
         System.out.println(url);
+    }
+
+//    @Autowired
+//    private TokenParser tokenParser;
+//
+//    @Test
+//    public void testTokenParser(){
+//        tokenParser.parse();
+//    }
+
+    @Autowired
+    private HeaderParser headerParser;
+    @Test
+    public void testHeaderParser(){
+        headerParser.parse();
     }
 }

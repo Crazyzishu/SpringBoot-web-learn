@@ -11,6 +11,7 @@
         <module name="tlias-web-management" />
         <module name="springboot-aop-quickstart" />
         <module name="springboot-web-config" />
+        <module name="itheima-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />
@@ -18,6 +19,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itheima-utils" options="" />
       <module name="springboot-aop-quickstart" options="-parameters" />
       <module name="springboot-aop-quickstart (1)" options="-parameters" />
       <module name="springboot-web-config" options="-parameters" />
